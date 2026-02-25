@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fondo Ambiental | Municipio del Distrito Metropolitano de Quito</title>
+
+<style>
+body{
+    margin:0;
+    font-family:"Segoe UI", Arial, sans-serif;
+    background:#ffffff;
+    color:#333;
+}
+
+/* BARRA AZUL SUPERIOR */
+.barra-superior{
+    background:#003366;
+    height:12px;
+}
+
+/* HEADER */
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:15px 50px;
+    background:#ffffff;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.header img{
+    height:70px;
+}
+
+/* MENU */
+.menu{
+    background:#003366;
+    padding:12px 50px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin-right:30px;
+    font-size:14px;
+    font-weight:500;
+}
+
+.menu a:hover{
+    text-decoration:underline;
+}
+
+/* TITULO */
+.titulo{
+    text-align:center;
+    margin:50px 0 40px 0;
+}
+
+.titulo h1{
+    color:#003366;
+    margin:0;
+    font-size:30px;
+}
+
+.titulo p{
+    margin-top:8px;
+    color:#666;
+    font-size:15px;
+}
+
+/* CONTENEDOR TARJETAS */
+.contenedor{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+    gap:35px;
+    padding-bottom:70px;
+}
+
+/* TARJETAS */
+.tarjeta{
+    background:#ffffff;
+    border:1px solid #dcdcdc;
+    border-radius:6px;
+    text-align:center;
+    padding:35px 20px;
+    transition:0.3s;
+}
+
+.tarjeta:hover{
+    border-color:#003366;
+    box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+.tarjeta img{
+    width:85px;
+    margin-bottom:20px;
+}
+
+.tarjeta h3{
+    font-size:16px;
+    color:#003366;
+    font-weight:600;
+}
+
+/* FOOTER */
+.footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+    font-size:14px;
+}
+
+.footer strong{
+    display:block;
+    margin-bottom:6px;
+    font-size:15px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="barra-superior"></div>
+
+<div class="header">
+    <img src="logo.png" alt="Fondo Ambiental Quito">
+</div>
+
+<div class="menu">
+    <a href="#">Inicio</a>
+    <a href="#">Transparencia</a>
+    <a href="#">Gestión Institucional</a>
+    <a href="#">Contacto</a>
+</div>
+
+<div class="titulo">
+    <h1>Panel de Gestión Institucional</h1>
+    <p>Fondo Ambiental – Municipio del Distrito Metropolitano de Quito</p>
+</div>
+
+<div class="contenedor">
+
+<div class="tarjeta">
+<a href="https://script.google.com/macros/s/AKfycbzowCf1H3dNHmPu5hdjSlsdCcTNaAlilRdrtPc5s81MOx0LsCFG1hxBPP6SG9w_lhvntw/exec" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png">
+</a>
+<h3>Ingreso de Resultados de Indicadores - Seguimiento</h3>
+</div>
+
+<div class="tarjeta">
+<a href="https://app.powerbi.com/view?r=eyJrIjoiYmM2YTEwZDYtNzczNS00YmM1LTkwMjEtMmYyMmEzMjg0MGJjIiwidCI6IjY2NjlmM2Y1LTZmMWMtNGZhNC04Y2QwLTk4NDFhMGE2NzZlMSIsImMiOjR9&embedImagePlaceholder=true" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png">
+</a>
+<h3>Seguimiento y Monitoreo de Proyectos</h3>
+</div>
+
+<div class="tarjeta">
+<a href="https://app.powerbi.com/view?r=eyJrIjoiMjgwNTk3ZGUtOTBhMy00OGE3LTg2MGItMDlhN2E0M2IyNGFhIiwidCI6IjY2NjlmM2Y1LTZmMWMtNGZhNC04Y2QwLTk4NDFhMGE2NzZlMSIsImMiOjR9&embedImagePlaceholder=true" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135679.png">
+</a>
+<h3>Plan Operativo Anual</h3>
+</div>
+
+<div class="tarjeta">
+<a href="https://app.powerbi.com/view?r=eyJrIjoiNGE5MmJkMDYtYWRlMC00ZDAyLWFkNDUtYzM2NWY1OTQ0NWFmIiwidCI6IjY2NjlmM2Y1LTZmMWMtNGZhNC04Y2QwLTk4NDFhMGE2NzZlMSIsImMiOjR9&embedImagePlaceholder=true" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/190/190411.png">
+</a>
+<h3>Emisiones de Certificaciones POA</h3>
+</div>
+
+<div class="tarjeta">
+<a href="https://app.powerbi.com/view?r=eyJrIjoiZjg1YjQ4MDMtNzc3Ni00OTU2LWI1ODctOWI0OGYzMWIyODFjIiwidCI6IjY2NjlmM2Y1LTZmMWMtNGZhNC04Y2QwLTk4NDFhMGE2NzZlMSIsImMiOjR9&embedImagePlaceholder=true" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/992/992700.png">
+</a>
+<h3>Control de Tiempos en Atención de Requerimientos</h3>
+</div>
+
+</div>
+
+<div class="footer">
+<strong>Municipio del Distrito Metropolitano de Quito</strong>
+Fondo Ambiental<br>
+Av. Amazonas N34-451 y Av. Atahualpa<br>
+© 2026 Todos los derechos reservados
+</div>
+
+</body>
+</html>
